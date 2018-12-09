@@ -13,7 +13,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     */
-    background-image: url('https://previews.123rf.com/images/liyavihola/liyavihola1709/liyavihola170900005/85096189-pintura-acr%C3%ADlica-dibujada-mano-fondo-del-arte-abstracto-pintura-de-acr%C3%ADlico-en-lona-textura-del-color-fr.jpg');
+    background-image: url('https://www.gannett-cdn.com/presto/2018/08/06/USAT/d7e9198a-b2fa-4ca6-b947-31c3751cc248-GettyImages-898660948.jpg?crop=5369,3020,x0,y0&width=3200&height=1680&fit=bounds');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .content-header {
@@ -23,7 +26,6 @@ body {
     margin: 40px auto;
     width: 600px;
     color: white;
-    background-color: rgba(0,0,0,0.2);
     border-radius: 5px;
     padding: 10px;
 }
@@ -83,22 +85,23 @@ body {
     align-items: center;
     margin-top: 150px;
     width: 100%;
-    
-   
 }
 
 .listStyle {
-    padding: 30px;
-    font-size: 60px;
+    padding: 25px;
+    font-size: 48px;
     text-transform: uppercase;
  /*   border: 5px solid rgb(235, 233, 233);*/
     font-weight: bolder;
-    border: 15px solid transparent;
-    color: green;
-    border-image: url('https://previews.123rf.com/images/liyavihola/liyavihola1709/liyavihola170900005/85096189-pintura-acr%C3%ADlica-dibujada-mano-fondo-del-arte-abstracto-pintura-de-acr%C3%ADlico-en-lona-textura-del-color-fr.jpg') 30 round;
-    background: url('https://previews.123rf.com/images/liyavihola/liyavihola1709/liyavihola170900005/85096189-pintura-acr%C3%ADlica-dibujada-mano-fondo-del-arte-abstracto-pintura-de-acr%C3%ADlico-en-lona-textura-del-color-fr.jpg') no-repeat;
+    border: 20px solid transparent;
+    color: rgba(0, 0, 0, 0.35);
+    border-image: url('https://www.gannett-cdn.com/presto/2018/08/06/USAT/d7e9198a-b2fa-4ca6-b947-31c3751cc248-GettyImages-898660948.jpg?crop=5369,3020,x0,y0&width=3200&height=1680&fit=bounds') 30 round;
+    background: url('https://www.gannett-cdn.com/presto/2018/08/06/USAT/d7e9198a-b2fa-4ca6-b947-31c3751cc248-GettyImages-898660948.jpg?crop=5369,3020,x0,y0&width=3200&height=1680&fit=bounds') no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    
+   /* background: url('https://png.pngtree.com/png_detail/18/09/10/pngtree-painted-background-png-clipart_2042849.jpg') no-repeat;*/
 
 }
 
@@ -110,6 +113,6 @@ body {
 }
 
 .box-list {
-    border: 5px solid white; 
-    background-color: white;
+    border: 5px solid rgba(0,0,0,0.4)  ; 
+    background-color:rgba(208, 109, 238, 0.4);
 }
